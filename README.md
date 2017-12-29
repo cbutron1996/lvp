@@ -8,8 +8,8 @@ How to Compile: g++ -std=c++11 -O3 -DNDEBUG -I ~/include -L ~/lib LV.cpp -o ./LV
 How to Run: ./LV.out [integer k errors] [string text file] [string pattern]
 
 Test Results:
-Input: ./LV.out 2 text4KB aaa
-- text4KB - a 5 KB text file repeating the word "baananaaan"
+Input: ./LV.out 2 text5KB aaa
+- text5KB - a 5 KB text file repeating the word "baananaaan"
 - pattern - "aaa"
 - k = 2
 Output:
